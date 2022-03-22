@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #252929;
+  background-color: #b2f5f5;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+.avatar {
+  width: 250px;
+}
+
+.avatar:hover {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.ref {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid #0788f1;
+}
+
+.ref:hover {
+  background-color: #b12eee;
+  font-size: 1.5em;
+}
+
+.ref:active {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  background-color: #ee2ece;
+}
+
+.info {
+  border: 2px solid #f5c3c3;
+  background-color: beige;
+}
+
+.info > h1 {
+  color: red;
+}
+
+.info > img {
+  -webkit-box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social > li {
+  padding: 15px;
+  list-style: none;
+  border: 1px solid #000;
+}
+
+.social > li > a {
+  display: block;
+  text-decoration: none;
+}
+
+.social > li > a:hover {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.buttons {
+  text-align: center;
+  margin: 15px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #39b999;
+}
+
+table {
+  border: 1px solid #000;
+}
+
+table > tr {
+  border: 1px solid #000;
+}
+
+.hobby {
+  border: 1px solid #000;
+  background-color: #caca8f;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 5px 5px red;
+          box-shadow: 10px 5px 5px red;
+  margin-bottom: 15px;
+}
+
+form {
+  border: 1px solid #000;
+  background-color: #87dbdb;
+}
+/*# sourceMappingURL=main.css.map */
